@@ -1,0 +1,97 @@
+body{
+    margin: 25px;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+    height: 50px;
+    border-bottom: 2px black solid;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.header_text{
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    margin: 0px;
+}
+h2{
+    font-size: 17px;
+    margin: 0px;
+}
+.first-form{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.label-left{
+    display: inline-block;
+    width: 140px;
+    vertical-align: center;
+}
+.left-input{
+    border: 1px solid rgb(218, 65, 149);
+    width: 330px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+#textarea1{
+    border: 1px solid rgb(218, 65, 149);   
+    width: 330px;
+    height: 125px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+
+.pink_box{
+    background-color: #C996C3;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#pink-label{
+    width: 50px;
+    margin-left: 40px;
+}
+#pink-input{
+    width: 280px;
+    margin-right: 15px;
+    height: 110px;
+}
+#heading-label{
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+.right-label{
+    width: 82px;
+    display: inline-block;
+    text-align: end;
+    margin-left: 0px;
+    vertical-align: center;
+ 
+}
+.right-input{
+    border: 1px solid rgb(218, 65, 149);
+    margin-left: 5px;
+    height: 30px;
+    width: 332px;
+    margin-top: 10px;
+}
+.spec-input{
+    border: 1px solid rgb(218, 65, 149);
+    height: 30px;
+    width: 150px;
+    margin-left: 5px;
+}
+#checkbox-input{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(218, 65, 149);
+}

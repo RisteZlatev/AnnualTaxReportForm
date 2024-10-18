@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Годишна Даночна Пријава</title>
+</head>
+<body>
+    
+    <div class="header">
+        <img class="logo1" src="images/logo.png" alt="logo of UJP">
+        <div class="header_text">
+            <h1>ГОДИШНА ДАНОЧНА ПРИЈАВА</h1>
+            
+            <h2>за утврдување на данокот на личен доход</h2>
+        </div>
+        <img class="logo2" src="images/logo2.png" alt="ДЛД-ГДП">
+    </div>
+    <div class="first-form">
+        <div class="left-form">
+            <label class="label-left">ЕМБГ</label>
+            <input class="left-input" type="number" required minlength="13" maxlength="13">
+            <br>
+            <label class="label-left">Име и Презиме и адреса на живеење за контакт</label>
+            <input type="text" required class="left-input" id="textarea1">
+            <br>
+            <label class="label-left">Телефон</label>
+            <input class="left-input" type="number" required>
+            <br>
+            <label class="label-left">е-пошта</label>
+            <input class="left-input" type="email" required>
+        </div>
+        <div class="right-form">
+            <div class="pink_box">
+                <label id="pink-label">Датум и број</label>
+                <input type="text" required id="pink-input">
+            </div>
+            <div id="heading-label">
+            <label>Даночен период</label>
+            </div>
+            <br>
+            <label class="right-label">од</label>
+            <input class="spec-input" type="date" required>
+            <label>до</label>
+            <input class="spec-input" type="date"required>
+            <br>
+            <label class="right-label">Датум на издавање</label>
+            <input class="right-input" type="date" required>
+            <br>
+            <label class="right-label">Рок за потврдување</label>
+            <input class="right-input" type="date" required>
+            <br>
+            <label class="right-label">Фолио број</label>
+            <input class="right-input" type="number" required>
+            <br>
+            <label class="right-label">Службена исправка</label>
+            <input id="checkbox-input" class="right-input" type="checkbox">
+        </div>
+
+    </div>
+    
+</body>
+</html>
